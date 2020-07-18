@@ -12,7 +12,7 @@ MOT-Mice was a multi-camera system with one top-view camera and three side-view 
 ***Videos of mouse group***: Multi-camera videos of mouse group. Top-view camera: camera4. Side-view cameras: camera1,2,3. <br>
 ***Faster R-CNN model***: Trained Faster R-CNN models to mouse detection for side-view and top-view cameras. <br>
 ***imgs***: Descriptional images.  <br>
-All the files were debuged in MATLAB R2019b.
+MOT-Mice system was developed and tested in MATLAB R2019b.
 
 ## Steps
 ### Step 1: Camera calibration
