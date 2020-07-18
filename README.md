@@ -14,4 +14,5 @@ MOT-Mice was a multi-camera system with one top-view camera and three side-view 
 ### Step 1: Camera calibration
 Run the code file ***CameraCalibration_V1.m*** in ***20200606 checkboard XX*** to achieve camera calibration.
 Get the results: ***camera1.mat, camera2.mat, camera3.mat, camera4.mat, MultiCameraPara.mat***
+
 ### Step 2: Mouse detection
