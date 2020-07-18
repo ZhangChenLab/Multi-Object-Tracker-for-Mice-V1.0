@@ -9,6 +9,7 @@ MOT-Mice was a multi-camera system with one top-view camera and three side-view 
 ## File description
 ***code***: Original MATLAB code.  <br>
 ***20200606 checkboard XX***: Checkboard images used for camera calibration. <br>
+***Videos of mouse group***: Multi-camera videos of mouse group. <br>
 ***Faster R-CNN model***: Trained Faster R-CNN models to mouse detection for side-view and top-view cameras. <br>
 ***imgs***: Descriptional images.  <br>
 All the files were debuged in MATLAB R2019b.
