@@ -1,5 +1,5 @@
 # Multi-Object Tracker for Mice
-Keywords: Multi-object tracking, Multi-camera, Mouse group, Deep learning, Faster R-CNN, Tracklets fusion <br>
+Keywords: Multi-object tracking, Multi-camera, Mouse group, Deep learning, Faster R-CNN, Tracklets fusion. <br>
 Zhang Chen Lab, Capital Medical University
 
 ## Introduction
@@ -7,8 +7,8 @@ Multi-Object Tracker for Mice (MOT-Mice) was used to track mouse groups using de
 MOT-Mice was a multi-camera system with one top-view camera and three side-view cameras.
 
 ## File description
-***20200606 checkboard XX***: Checkboard images used for camera calibration <br>
-***Faster R-CNN model***: Trained Faster R-CNN models to mouse detection for side-view and top-view cameras <br>
+***20200606 checkboard XX***: Checkboard images used for camera calibration. <br>
+***Faster R-CNN model***: Trained Faster R-CNN models to mouse detection for side-view and top-view cameras. <br>
 ***imgs***: Descriptional images.
 
 ## Steps
