@@ -1,5 +1,5 @@
 # Multi-Object Tracker for Mice (MOT-Mice)
-**Keywords: Multi-object tracking, Multi-camera, Mouse group, Deep learning, Faster R-CNN, Tracklets fusion** <br>
+**Keywords: Multi-object tracking, Multi-camera, Mouse group, Deep learning, Object detection, Faster R-CNN, Tracklets fusion** <br>
 Zhang Chen Lab, Capital Medical University
 
 ## Introduction
