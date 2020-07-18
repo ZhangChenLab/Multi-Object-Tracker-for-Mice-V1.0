@@ -9,6 +9,7 @@ MOT-Mice was a multi-camera system with one top-view camera and three side-view 
 ## File description
 ***20200606 checkboard XX***: Checkboard images used for camera calibration <br>
 ***Faster R-CNN model***: Trained Faster R-CNN models to mouse detection for side-view and top-view cameras <br>
+***imgs***: Descriptional images.
 
 ## Steps
 ### Step 1: Camera calibration
