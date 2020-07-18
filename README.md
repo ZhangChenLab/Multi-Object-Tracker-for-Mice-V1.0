@@ -1,4 +1,4 @@
-# Multi-Object-Tracker-for-Mice
+# Multi-Object Tracker for Mice
 Keywords: Multi-object tracking, Multi-camera, Mouse group, Deep learning, Faster R-CNN, Tracklets fusion
 Zhang Chen Lab, Capital Medical University
 
