@@ -15,10 +15,12 @@ All the files were debuged in MATLAB R2019b.
 
 ## Steps
 ### Step 1: Camera calibration
-Locate the folder of in ***20200606 checkboard XX*** in MATLAB.
+Processing the files in the folder of ***20200606 checkboard XX***. <br>
 Run the code file ***Step1_CameraCalibration_V1.m*** in the folder of ***code*** to achieve camera calibration. <br>
 Get the results: ***camera1.mat, camera2.mat, camera3.mat, camera4.mat, MultiCameraPara.mat***  <br>
 ![image](https://github.com/ZhangChenLab/Multi-Object-Tracker-for-Mice/blob/master/imgs/20200606132509-camera4.png)
 ### Step 2: Mouse detection
-
-
+Processing the files in the folder of ***Example Videos mice-4***. <br>
+Detect all mouse individuals and generate tracklets for each camera.  <br>
+Run the code file ***Step2_1_MouseDetection_CamTopview.m*** in the folder of ***code*** for top-view camera (camera4) using the trained Faster R-CNN model of ***FRCNN_resnet18_Camera_Top-view***.  <br>
+Run the code file ***Step2_2_MouseDetection_CamTopview.m*** in the folder of ***code*** for side-view cameras (camera1,2,3) using the trained Faster R-CNN model of ***FRCNN_resnet18_Camera_Side-view***.  <br>
