@@ -18,11 +18,11 @@ MOT-Mice system was developed and tested in MATLAB R2019b.
 - Use **EasyRun** step to test the MOT-Mice quickly. <br>
 - Use **Step-by-Step** to test the MOT-Mice step-by-step. <br>
 ### EasyRun
-Run the ***EasyTest.m*** file to test the MOT-Mice quickly.
+Run the ***EasyTest.m*** file to test the MOT-Mice quickly. Pre-processed camera calibration and mouse detection files were used.
 ### Step-by-Step
 #### Step 1: Camera calibration
 Processing the files in the folder of ***20200606 checkboard XX***. <br>
-Run the code file ***Step1_CameraCalibration_V1.m*** in the folder of ***code*** to achieve camera calibration. Get the results: ***camera1.mat, camera2.mat, camera3.mat, camera4.mat, MultiCameraPara.mat***  <br>
+Run the code file ***Step1_CameraCalibration_V1.m*** in the folder of ***code*** to achieve camera calibration. Get the results: ***camera1.mat, camera2.mat, camera3.mat, camera4.mat, MultiCameraPara.mat.***  <br>
 <img src="imgs/20200606132509-camera4.png" height="200px" width="auto"/> 
 #### Step 2: Mouse detection
 Processing the files in the folder of ***Videos of mouse group***. <br>
