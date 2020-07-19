@@ -18,18 +18,18 @@ MOT-Mice was developed and tested on MATLAB R2019b using an Nvidia GeForce GTX 1
 - Use **EasyRun** step to test the MOT-Mice quickly. <br>
 - Use **Step-by-Step** to test the MOT-Mice step-by-step. <br>
 ### EasyRun
-Run the ***EasyTest.m*** file to test the MOT-Mice quickly. Pre-processed camera calibration and mouse detection files were used.
+Run ***EasyTest.m*** to test the MOT-Mice quickly. Pre-processed camera calibration and mouse detection files were used.
 ### Step-by-Step
 #### Step 1: Camera calibration
 Processing the files in the folder of ***20200606 checkboard XX***. <br>
-Run the code file ***Step1_CameraCalibration_V1.m*** in the folder of ***code*** to achieve camera calibration. Get the results: ***camera1.mat, camera2.mat, camera3.mat, camera4.mat, MultiCameraPara.mat.***  <br>
+Run ***Step1_CameraCalibration_V1.m*** in the folder of ***code*** to achieve camera calibration. Get the results: ***camera1.mat, camera2.mat, camera3.mat, camera4.mat, MultiCameraPara.mat.***  <br>
 <img src="imgs/20200606132509-camera4.png" height="200px" width="auto"/> 
 #### Step 2: Mouse detection
 Processing the files in the folder of ***Videos of mouse group***. <br>
 Detect all mouse individuals and generate tracklets for each video.  <br>
-Run the code file ***Step2_1_MouseDetection_CamTopview.m*** in the folder of ***code*** for the tracking of top-view camera (camera4) using Faster R-CNN model of ***FRCNN_resnet18_Camera_Top-view***. Get a result file of ***Tracelets_....mat***. <br>
-Run the code file ***Step2_2_MouseDetection_CamTopview.m*** in the folder of ***code*** for the tracking of side-view cameras (camera1,2,3) using Faster R-CNN model of ***FRCNN_resnet18_Camera_Side-view***. Get a result file of ***Tracelets_....mat***.  <br>
+Run ***Step2_1_MouseDetection_CamTopview.m*** in the folder of ***code*** for the tracking of top-view camera (camera4) using Faster R-CNN model of ***FRCNN_resnet18_Camera_Top-view***. Get a result file of ***Tracelets_....mat***. <br>
+Run ***Step2_2_MouseDetection_CamTopview.m*** in the folder of ***code*** for the tracking of side-view cameras (camera1,2,3) using Faster R-CNN model of ***FRCNN_resnet18_Camera_Side-view***. Get a result file of ***Tracelets_....mat***.  <br>
 #### Step 3: Tracklets fusion by trace prediction
-Run the code file ***Step3_1_TrackletsFusion_SingleCamera.m*** in the folder of ***code*** to achieve single-camera tracklets fusion. Get a result file of ***..._FusionSingleCam.mat***.<br>
-Run the code file ***Step3_2_TrackletsFusion_MultiCamera.m*** in the folder of ***code*** to achieve multi-camera tracklets fusion. Get a result file of ***..._FusionMultiCam.mat***. <br>
+Run ***Step3_1_TrackletsFusion_SingleCamera.m*** in the folder of ***code*** to achieve single-camera tracklets fusion. Get a result file of ***..._FusionSingleCam.mat***.<br>
+Run ***Step3_2_TrackletsFusion_MultiCamera.m*** in the folder of ***code*** to achieve multi-camera tracklets fusion. Get a result file of ***..._FusionMultiCam.mat***. <br>
 #### Step 4: Post-processing and manual correction
