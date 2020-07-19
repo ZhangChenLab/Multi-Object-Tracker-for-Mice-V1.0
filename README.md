@@ -24,7 +24,7 @@ Run the ***EasyTest.m*** file to test the MOT-Mice quickly.
 Processing the files in the folder of ***20200606 checkboard XX***. <br>
 Run the code file ***Step1_CameraCalibration_V1.m*** in the folder of ***code*** to achieve camera calibration. <br>
 Get the results: ***camera1.mat, camera2.mat, camera3.mat, camera4.mat, MultiCameraPara.mat***  <br>
-![image](https://github.com/ZhangChenLab/Multi-Object-Tracker-for-Mice/blob/master/imgs/20200606132509-camera4.png)
+<img src="imgs/20200606132509-camera4.png" height="200px" width="auto"/> 
 #### Step 2: Mouse detection
 Processing the files in the folder of ***Videos of mouse group***. <br>
 Detect all mouse individuals and generate tracklets for each camera.  <br>
