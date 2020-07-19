@@ -12,7 +12,7 @@ MOT-Mice was a multi-camera system with one top-view camera and three side-view 
 ***Videos of mouse group***: Multi-camera videos of mouse group. Top-view camera: camera4. Side-view cameras: camera1,2,3. <br>
 ***Faster R-CNN model***: Trained Faster R-CNN models to mouse detection for side-view and top-view cameras. <br>
 ***imgs***: Descriptional images.  <br>
-MOT-Mice system was developed and tested in MATLAB R2019b.
+MOT-Mice was developed and tested on MATLAB R2019b using an Nvidia GeForce GTX 1080 Ti GPU with 11 GB memory.
 
 ## Run MOT-Mice system
 - Use **EasyRun** step to test the MOT-Mice quickly. <br>
