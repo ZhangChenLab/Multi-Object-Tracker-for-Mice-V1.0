@@ -30,5 +30,6 @@ Detect all mouse individuals and generate tracklets for each camera.  <br>
 Run the code file ***Step2_1_MouseDetection_CamTopview.m*** in the folder of ***code*** for the tracking of top-view camera (camera4) using Faster R-CNN model of ***FRCNN_resnet18_Camera_Top-view***.  <br>
 Run the code file ***Step2_2_MouseDetection_CamTopview.m*** in the folder of ***code*** for the tracking of side-view cameras (camera1,2,3) using Faster R-CNN model of ***FRCNN_resnet18_Camera_Side-view***.  <br>
 ### Step 3: Tracklets fusion by trace prediction
-Run the code file ***Step3_1_TrackletsFusion_TracePrediction.m*** in the folder of ***code*** to achieve single-camera tracklets fusion. <br>
+Run the code file ***Step3_1_TrackletsFusion_SingleCamera.m*** in the folder of ***code*** to achieve single-camera tracklets fusion. <br>
+Run the code file ***Step3_2_TrackletsFusion_MultiCamera.m*** in the folder of ***code*** to achieve multi-camera tracklets fusion. <br>
 ### Step 4: Post-processing and manual correction
