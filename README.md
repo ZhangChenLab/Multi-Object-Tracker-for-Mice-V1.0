@@ -15,16 +15,20 @@ MOT-Mice was a multi-camera system with one top-view camera and three side-view 
 MOT-Mice system was developed and tested in MATLAB R2019b.
 
 ## Steps
+- Use **EasyRun** step to test the MOT-Mice system quickly. <br>
+- Use **Step1,2,3** to test the MOT-Mice system step by step. <br>
+### EasyRun
+Run the ***EasyTest.m*** file to test the MOT-Mice system easyly.
 ### Step 1: Camera calibration
 Processing the files in the folder of ***20200606 checkboard XX***. <br>
 Run the code file ***Step1_CameraCalibration_V1.m*** in the folder of ***code*** to achieve camera calibration. <br>
 Get the results: ***camera1.mat, camera2.mat, camera3.mat, camera4.mat, MultiCameraPara.mat***  <br>
 ![image](https://github.com/ZhangChenLab/Multi-Object-Tracker-for-Mice/blob/master/imgs/20200606132509-camera4.png)
 ### Step 2: Mouse detection
-Processing the files in the folder of ***Example Videos mice-4***. <br>
+Processing the files in the folder of ***Videos of mouse group***. <br>
 Detect all mouse individuals and generate tracklets for each camera.  <br>
 Run the code file ***Step2_1_MouseDetection_CamTopview.m*** in the folder of ***code*** for the tracking of top-view camera (camera4) using Faster R-CNN model of ***FRCNN_resnet18_Camera_Top-view***.  <br>
 Run the code file ***Step2_2_MouseDetection_CamTopview.m*** in the folder of ***code*** for the tracking of side-view cameras (camera1,2,3) using Faster R-CNN model of ***FRCNN_resnet18_Camera_Side-view***.  <br>
 ### Step 3: Tracklets fusion by trace prediction
-
+Run the code file ***Step3_1_TrackletsFusion_TracePrediction.m*** in the folder of ***code*** to achieve single-camera tracklets fusion. <br>
 ### Step 4: Post-processing and manual correction
