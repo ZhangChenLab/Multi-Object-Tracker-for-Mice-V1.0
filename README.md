@@ -16,10 +16,10 @@ MOT-Mice system was developed and tested in MATLAB R2019b.
 
 ## Steps
 - Use **EasyRun** step to test the MOT-Mice system quickly. <br>
-- Use **StepByStep** to test the MOT-Mice system step by step. <br>
+- Use **Step-by-Step** to test the MOT-Mice system step-by-step. <br>
 ### EasyRun
-Run the ***EasyTest.m*** file to test the MOT-Mice system easyly.
-### StepByStep
+Run the ***EasyTest.m*** file to test the MOT-Mice system quickly.
+### Step-by-Step
 #### Step 1: Camera calibration
 Processing the files in the folder of ***20200606 checkboard XX***. <br>
 Run the code file ***Step1_CameraCalibration_V1.m*** in the folder of ***code*** to achieve camera calibration. <br>
