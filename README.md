@@ -15,10 +15,10 @@ MOT-Mice was a multi-camera system with one top-view camera and three side-view 
 MOT-Mice system was developed and tested in MATLAB R2019b.
 
 ## Run MOT-Mice system
-- Use **EasyRun** step to test the MOT-Mice system quickly. <br>
-- Use **Step-by-Step** to test the MOT-Mice system step-by-step. <br>
+- Use **EasyRun** step to test the MOT-Mice quickly. <br>
+- Use **Step-by-Step** to test the MOT-Mice step-by-step. <br>
 ### EasyRun
-Run the ***EasyTest.m*** file to test the MOT-Mice system quickly.
+Run the ***EasyTest.m*** file to test the MOT-Mice quickly.
 ### Step-by-Step
 #### Step 1: Camera calibration
 Processing the files in the folder of ***20200606 checkboard XX***. <br>
